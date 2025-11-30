@@ -1,0 +1,16 @@
+export default `<!doctype html>
+<html lang="en" data-beasties-container="">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="assets/images/artifex-logo.png">
+  <title>Artifex</title>
+  <base href="/Artifex/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>:root{--font-header:"Playfair Display", serif;--font-body:"Poppins", sans-serif}body{font-family:var(--font-body);margin:0!important}</style><link rel="stylesheet" href="styles-7JXV4ULB.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-7JXV4ULB.css"></noscript></head>
+
+<body ngcm="">
+  <app-root></app-root>
+<script src="polyfills-B6TNHZQ6.js" type="module"></script><script src="main-HPEH5DJL.js" type="module"></script></body>
+
+</html>`;
