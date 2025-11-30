@@ -1,0 +1,114 @@
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-logo">Artifex</div>
+</div>
+<!-- Cursor -->
+<div class="cursor"></div>
+<!-- Scroll Progress Bar -->
+<div id="progress-bar"></div>
+
+<!-- Header -->
+<header>
+  <div class="logo" id="header-logo" style="display: flex; align-items: center;">
+    <img src="assets/images/artifex-logo.png" alt="artifex-logo" class="artifex-logo" id="artifex-logo" height="72px">
+    <div>Artifex</div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1 class="fade-up text">We Design Visual Stories</h1>
+    <p class="fade-up delay1">Minimal, Bold, and Impactful Graphic Design.</p>
+    <a href="#works" class="btn fade-up delay2">View Our Work</a>
+  </div>
+</section>
+
+<!-- Works -->
+<section id="works" class="works">
+  <h2>Our Works</h2>
+  <div class="grid">
+    <div class="card"><img src="assets/images/work-3.jpeg" alt="Design 3"></div>
+    <div class="card"><img src="assets/images/work-2.jpeg" alt="Design 2"></div>
+
+    <div class="card"><img src="assets/images/work-4.jpeg" alt="Design 4"></div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+  <h2>About Us</h2><br />
+  <p>
+    Artifex is a creative studio focused on modern, minimalistic, and high-impact graphic design.<br /><br />
+    We craft visual identities that speak louder than words.
+  </p>
+</section>
+
+<!-- Contact -->
+<section id="contacts" class="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="section-subtitle">
+    I'd love to hear from you! Whether you're looking to collaborate, discuss an idea, or simply connect, feel free to
+    reach out.
+  </p>
+
+  <div class="contact-card">
+    <div class="contact-card-name">
+      <div>
+        <h3 class="contact-name">Nandan Achar</h3>
+        <p class="contact-role">Founder & Creative Director</p>
+      </div>
+      <div>
+        <img src="assets/images/artifex-logo-dark.png" alt="artifex-logo-dark" id="artifex-logo-dark" height="72px">
+      </div>
+    </div>
+    <div class="contact-divider"></div>
+
+    <div class="contact-row">
+      <span class="label">Phone</span>
+      <a href="tel:+9199866688970" class="value">+91 99866 68970</a>
+    </div>
+
+    <div class="contact-row">
+      <span class="label">Email</span>
+      <a href="mailto:creativeartifexstudio@gmail.com" class="value">
+        creativeartifexstudio&#64;gmail.com
+      </a>
+    </div>
+
+    <div class="contact-row">
+      <span class="label">Instagram</span>
+      <a href="https://www.instagram.com/artifex_studio.in/" class="value">
+        artifex_studio.in
+      </a>
+    </div>
+
+    <div class="contact-note">
+      Let's collaborate on your next project.
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p class="footer-text">© {{currentDateTime.getFullYear()}} Artifex Design Studio. All rights reserved.</p>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <span class="prev">&#10094;</span>
+  <span class="next">&#10095;</span>
+  <img class="lightbox-content" id="lightbox-img" alt="Portfolio Image">
+</div>
+
+<!-- Back to Top -->
+<button id="backToTop" title="Go to top">↑</button>
